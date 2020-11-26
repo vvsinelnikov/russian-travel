@@ -1,0 +1,16 @@
+@import "../vendor/normalize.css";
+@import "../blocks/page/page.css";
+@import "../blocks/header/header.css";
+@import "../blocks/header/__logo/header__logo.css";
+@import "../blocks/header/__lang-menu/header__lang-menu.css";
+@import "../blocks/header/__lang-menu/_active/header__lang-menu_active.css";
+@import "../blocks/header/__lang-link/header__lang-link.css";
+@import "../blocks/lead/lead.css";
+@import "../blocks/lead/__title/lead__title.css";
+@import "../blocks/lead/__subtitle/lead__subtitle.css";
+@import "../blocks/lead/__cover/lead__cover.css";
+@import "../blocks/lead/__caption/lead__caption.css";
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__menu/footer__menu.css";
+@import "../blocks/footer/__link/footer__link.css";
+@import "../blocks/footer/__copyright/footer__copyright.css";
