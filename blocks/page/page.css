@@ -1,8 +1,37 @@
 .page {
-  width: 100%;
-  max-width: 1600px;
+  min-width: 320px;
   margin: 0 auto;
-  background-color:#2A2C2F;
+  background-color: #2A2C2F;
   color: #fff;
   font-family: Inter, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%; 
+  text-rendering: optimizeLegibility; 
 }
+
+/* @media screen and (max-width: 1280px) {
+  .page {
+    background-color: red;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    background-color: green;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page {
+    background-color: brown;
+  }
+} */
