@@ -1,0 +1,18 @@
+.place__url {
+  align-self: end;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  color: #aaa;
+  margin: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .place__url {
+    display: none;
+  }
+  .place__title {
+    padding: 0 16px;
+  }
+}

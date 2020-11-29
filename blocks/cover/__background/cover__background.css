@@ -1,0 +1,56 @@
+.cover__background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./railways.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 62.5vw;
+  margin-top: 64px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cover__background::before {
+  content: '';
+  position: absolute;
+  top: 64px;
+  right: -16px;
+  left: -16px;
+  bottom: 0;
+  background:#2a2c2f;
+  opacity: 0.3;
+}
+
+.cover__background:hover::before {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__background {
+    margin-top: 88px;
+  }
+  .cover__background::before {
+    top: 88px;
+    right: -24px;
+    left: -24px;
+  }
+
+@media screen and (min-width: 1024px) {
+  .cover__background {
+    margin-top: 92px;
+  }
+  .cover__background::before {
+    top: 92px;
+    right: -48px;
+    left: -48px;
+  } 
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__background {
+    width: 100%;
+  }
+}
