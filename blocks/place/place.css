@@ -1,20 +1,32 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 32px 40px;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 32px 28px;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 425px) {
+  .place {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px 28px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place {
+    gap: 48px 28px;
+    margin-top: 72px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .place {
-    gap: 32px 40px;
+    gap: 48px 32px;
+    margin-top: 80px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 1280px) {
   .place {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 32px 28px;
-    position: relative;
-    left: -16px;
+    gap: 48px 40px;
   }
-}

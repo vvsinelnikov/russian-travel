@@ -6,13 +6,11 @@
   letter-spacing: 0.2em;
   color: #aaa;
   margin: 0;
+  display: none;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 425px) {
   .place__url {
-    display: none;
-  }
-  .place__title {
-    padding: 0 16px;
+    display: block;
   }
 }

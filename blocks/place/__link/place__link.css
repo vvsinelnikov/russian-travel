@@ -2,8 +2,8 @@
   text-transform: none;
   display: block;
   margin-top: 12px;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 12px;
+  line-height: 16px;
   color: #fff;
   transition: opacity .25s;
 }
@@ -12,11 +12,9 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 768px) {
   .place__link {
-    display: none;
+    font-size: 18px;
+    line-height: 22px;
   }
 }
-
-
-

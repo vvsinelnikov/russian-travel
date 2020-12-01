@@ -4,14 +4,15 @@
   line-height: 20px;
   max-width: 640px;
   margin: 0 0 40px 0;
+  padding: 0 24px;
 }
-
 
 @media screen and (min-width: 768px) {
   .lead__subtitle {
     font-size: 30px;
     line-height: 36px;
     margin: 0 0 57px 0;
+    padding: 0 24px;
   }
 }
 
@@ -19,6 +20,8 @@
   .lead__subtitle {
     font-size: 30px;
     line-height: 36px;
+    padding: 0 48px;
+
   }
 }
 
