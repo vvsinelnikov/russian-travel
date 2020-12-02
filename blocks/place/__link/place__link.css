@@ -2,19 +2,12 @@
   text-transform: none;
   display: block;
   margin-top: 12px;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 18px;
+  line-height: 22px;
   color: #fff;
   transition: opacity .25s;
 }
 
 .place__link:hover {
   opacity: 0.8;
-}
-
-@media screen and (min-width: 768px) {
-  .place__link {
-    font-size: 18px;
-    line-height: 22px;
-  }
 }

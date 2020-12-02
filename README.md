@@ -9,3 +9,4 @@
 
 **Перспективы**
 Добавить интерактив, прикрепить к бэкенду.
+[Ссылка на Github Pages](https://vvsinelnikov.github.io/russian-travel/)

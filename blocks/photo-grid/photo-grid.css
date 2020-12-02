@@ -2,6 +2,7 @@
   margin: 0 auto 16px auto;
   padding: 0 16px;
   max-width: 1280px;
+  box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 12px;
@@ -19,15 +20,12 @@
   .photo-grid {
     padding: 0 48px;
     grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
     margin-bottom: 12px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .photo-grid {
-    padding: 0 48px;
     grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
   }
 }

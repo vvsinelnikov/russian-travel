@@ -1,25 +1,4 @@
 .intro__list {
   list-style: none;
   padding: 0;
-  font-size: 12px;
-  line-height: 18px;
-}
-
-.intro__list:last-of-type {
-  margin-bottom: 64px;
-}
-
-@media screen and (min-width: 768px) {
-  .intro__list:last-of-type {
-    margin-bottom: 88px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .intro__list {
-    max-width: 690px;
-  }
-  .intro__list:last-of-type {
-    margin-bottom: 92px;
-  }
 }
